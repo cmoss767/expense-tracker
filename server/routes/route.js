@@ -13,7 +13,7 @@ routes.route('/api/transaction')
 
 
 
-
-
+routes.route('/api/labels')
+    .get(controller.getLabels)
 
 module.exports = routes
