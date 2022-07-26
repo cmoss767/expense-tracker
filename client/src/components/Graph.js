@@ -14,7 +14,9 @@ Chart.register(ArcElement)
 
 export default function Graph(){
   const {data, isFetching, isSuccess, isError } = api.useGetLabelsQuery()
+  
   let graphData
+  console.log(data)
 
   
 

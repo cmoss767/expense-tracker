@@ -12,7 +12,7 @@ export const apiSlice = createApi({
         providesTags:['categories']
        }),
        //get labels
-       getLabels:builder.query({
+       getLabels : builder.query({
         query: ()=>'/api/labels',
         providesTags:['transaction']
        }),

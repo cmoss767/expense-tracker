@@ -1,4 +1,4 @@
-import {configureStore, getDefaultMiddleware} from '@reduxjs/toolkit'
+import {configureStore} from '@reduxjs/toolkit'
 import { expenseSlice } from './reducer'
 import {apiSlice} from './apiSlice'
 
